@@ -223,6 +223,11 @@ body {
   margin-left: -20px;
 }
 
+.check__input:focus + .check__box {
+  background-color: var(--accent-color);
+  border: transparent;
+}
+
 .check__input:checked + .check__box {
   background-color: var(--accent-color);
   border: transparent;
